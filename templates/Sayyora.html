@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Interactive Solar System</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> <!-- Link to CSS -->
+</head>
+<body>
+	<h1>Explore the Planets</h1>
+
+
+
+	<!-- The Modal -->
+	<div>
+		<!-- Modal content -->
+		<div class="modal-content">
+			<h2 id="modal-planet-name">{{info['sayyora_nomi']}}</h2>
+			<p id="modal-planet-desc">{{sayyora_joylashuvi}}</p>
+			<strong>Average Temperature:</strong>
+		</div>
+	</div>
+
+	<script src="{{ url_for('static', filename='script.js') }}"></script> <!-- Link to JavaScript -->
+</body>
+</html>
