@@ -10,6 +10,12 @@ mars = {
     "sayyora_haqida": "Mars qizil sayyora"
 }
 
-sayyoralar = [yer, mars]
+saturn = {
+    "sayyora_nomi": "Saturn",
+    "sayyora_joylashuvi": "6-o'rin",
+    "sayyora_haqida": "Saturn qizil sayyora"
+}
+
+sayyoralar = [yer, mars, saturn]
 
 # print(sayyoralar)
